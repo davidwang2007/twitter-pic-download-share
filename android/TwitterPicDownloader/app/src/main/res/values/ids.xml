@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="adView"/>
+    <item type="id" name="progressBar"/>
+    <item type="id" name="progressBarH"/>
+    <item type="id" name="thumbnail"/>
+    <item type="id" name="downloadBtn"/>
+    <item type="id" name="menu_close"/>
+</resources>

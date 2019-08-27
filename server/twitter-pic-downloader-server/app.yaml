@@ -1,0 +1,19 @@
+runtime: go
+api_version: go1
+
+handlers:
+
+# All URLs are handled by the Go application script
+- url: /.*
+  script: _go_app
+  #secure: always
+
+
+
+env_variables:
+  #HTTP_PROXY: 'http://127.0.0.1:9099'
+  #HTTPS_PROXY: 'http://127.0.0.1:9099'
+  CONSUMER_KEY: 'please use your key'
+  CONSUMER_SECRET: 'please use your secret'
+  OAUTH_TOKEN: 'please use you token'
+  OAUTH_SECRET: 'please use your secret'
